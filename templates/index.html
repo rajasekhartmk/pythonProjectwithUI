@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+h2  {text-align: center;}
+div {text-align: center;}
+p   {text-align: center;}
+
+#container
+{
+    margin-top : 25px;
+<!--   width:100%-->
+}
+#button1
+{
+    position: relative;
+    bottom: -20px;
+    margin: 0;
+    padding: 0;
+    left: 120px;
+    height: 30px;
+    width:10%;
+}
+#button2
+{
+    position: relative;
+    bottom: 10px;
+    padding: 0;
+    margin: 0;
+    right: 120px;
+    height: 30px;
+    width:10%;
+}
+    </style>
+<title>
+MY-Pulse
+</title>
+</head>
+<!--<script src="/static/jquery.js"></script>-->
+<body>
+<img src="MY_Pulse_logo.png" alt="MyPulse Logo" width="170" height="170" align="left">
+<img src="MYCO.jpg" alt="MYCO logo" width="220" height="170" align="right">
+<br>
+<br><br><br>
+<br>
+<div class="container">
+    <div class="header">
+        <h1 class="text-muted" align="middle">MY-Pulse</h1>
+    </div>
+    <br>
+    <br>
+    <div class="button1">
+        <input type="button" id='button1' name="screen" value="screen"
+               onclick="window.open('http://127.0.0.1:5000/check/','_blank')">
+    </div>
+    <div class="button2">
+        <input type="button" id='button2' name="pdfconvertor" value="ConvertToPdf"
+               onclick="window.open('http://127.0.0.1:5000/data/','_blank')">
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+resumes_path = "C:/Users/manikotarajas.tumul/HCL Technologies Ltd/MY_PULSE - Resume-Screening/Resumes_Screenable/Profiles_to_be_screened"
+csv_path="C:/Users/manikotarajas.tumul/HCL Technologies Ltd/MY_PULSE - Resume-Screening/Dataset_With_Roles/res_lower.csv"
+generated_excel_path="C:/Users/manikotarajas.tumul/HCL Technologies Ltd/MY_PULSE - Resume-Screening/Result_Sheet/sample.csv"
+graph_path="C:/Users/manikotarajas.tumul/HCL Technologies Ltd/MY_PULSE - Resume-Screening/Graph/graph.pdf"
+graph_path_png="C:/Users/manikotarajas.tumul/HCL Technologies Ltd/MY_PULSE - Resume-Screening/Graph/graph.png"
+non_screenable_resumes="C:/Users/manikotarajas.tumul/HCL Technologies Ltd/MY_PULSE - Resume-Screening/Resumes_Screenable/NotScreened_Resumes"
+completed_screening="C:/Users/manikotarajas.tumul/HCL Technologies Ltd/MY_PULSE - Resume-Screening/Resumes_Screenable/Completed_resumes"
